@@ -1,0 +1,31 @@
+# Pipeline & Automation
+workflow-aggregator:596.v8c21c963d92d
+workflow-job:1400.v7fd111b_ec82f
+pipeline-model-definition:2.2144.v077a_d1928a_40
+configuration-as-code:1836.vccda_4a_122a_a_e
+
+# SCM & Git
+git:5.2.1
+github-branch-source:1741.va_3028eb_9fd21
+pipeline-github-lib:42.v0739460cda_c4
+
+# Security
+antisamy-markup-formatter:162.v0e6ec0fcfcf6
+credentials:1380.va_435002fa_924
+role-strategy:743.v142ea_b_d5f1d3  # Downgraded to stable version:cite[1]
+matrix-auth:3.2.3
+
+# Infrastructure
+kubernetes:4203.v1dd44f5b_1cf9
+docker-plugin:1.5
+terraform:1.0.10
+
+# Build Systems
+gradle:2.8.2
+ant:497.v94e7d9fffa_b_9
+job-dsl:1.85
+
+
+# Testing
+junit:1240.vf9529b_881428        
+sonar:2.16
